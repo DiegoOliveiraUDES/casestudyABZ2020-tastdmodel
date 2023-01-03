@@ -1,0 +1,21 @@
+updateBrightness(100)
+advanceOf(sec, 1)
+switchToAuto
+advanceOf(sec, 1)
+switchToOn
+advanceOf(sec, 1)
+insertKey
+advanceOf(sec, 1)
+putIgnitionOn
+advanceOf(sec, 1)
+switchToAuto
+advanceOf(sec, 5)
+putIgnitionOff
+advanceOf(sec, 15)
+moveDoors
+advanceOf(sec, 25)
+removeKey
+advanceOf(sec, 25)
+moveDoors
+advanceOf(sec, 29)
+advanceOf(sec, 1)

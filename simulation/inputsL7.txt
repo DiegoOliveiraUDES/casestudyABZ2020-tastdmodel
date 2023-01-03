@@ -1,0 +1,27 @@
+updateBrightness(500)
+advanceOf(sec, 1)
+insertKey
+advanceOf(sec, 1)
+putIgnitionOn
+advanceOf(sec, 2)
+movePitmanArmUD(Upward7)
+advanceOf(millisec, 500)
+advanceOf(millisec, 500)
+advanceOf(millisec, 300)
+movePitmanArmUD(Neutral)
+advanceOf(millisec, 4700)
+movePitmanArmUD(Downward5)
+advanceOf(millisec, 200)
+movePitmanArmUD(Neutral)
+advanceOf(millisec, 600)
+putOnHazardSwitch
+advanceOf(millisec, 199)
+advanceOf(millisec, 1)
+advanceOf(millisec, 2300)
+movePitmanArmUD(Upward5)
+advanceOf(millisec, 100)
+movePitmanArmUD(Neutral)
+advanceOf(millisec, 900)
+putOffHazardSwitch
+advanceOf(millisec, 200)
+advanceOf(millisec, 500)

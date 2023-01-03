@@ -1,0 +1,15 @@
+insertKey
+putIgnitionOn
+advanceOf(sec, 2)
+updateGasPedal(20)
+advanceOf(sec, 18)
+updateSpeed(80)
+updateGasPedal(0)
+advanceOf(sec, 10)
+vehicleSensed(80)
+advanceOf(millisec, 100)
+advanceOf(millisec, 50)
+advanceOf(millisec, 100)
+advanceOf(millisec, 50)
+advanceOf(millisec, 100)
+advanceOf(millisec, 1500)

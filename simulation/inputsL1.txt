@@ -28,6 +28,6 @@ switchToOn
 advanceOf(sec, 1)
 removeKey
 advanceOf(sec, 1)
-movePitmanArm(Downward7)
+movePitmanArmUD(Downward7)
 advanceOf(sec, 1)
 switchToAuto

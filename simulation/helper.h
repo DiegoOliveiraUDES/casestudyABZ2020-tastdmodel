@@ -209,7 +209,9 @@ public:
      
         return e;
     }
-};/*
+};
+
+;/*
 * @brief Manages clock variables.
 *
 */
@@ -237,6 +239,10 @@ public:
 
     void reset_clock(std::time_t current_time){
         time_stamp = current_time;
+    }
+
+    void reset_clock(Timer ts){
+        time_stamp = ts.getTimeStamp();
     }
 };
 

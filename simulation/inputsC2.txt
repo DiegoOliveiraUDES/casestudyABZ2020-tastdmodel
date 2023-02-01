@@ -1,6 +1,6 @@
+changeCruiseControlMode
 insertKey
 putIgnitionOn
-changeCruiseControlMode
 advanceOf(sec, 2)
 updateGasPedal(10)
 advanceOf(sec, 18)
@@ -10,13 +10,13 @@ advanceOf(sec, 1)
 moveSCSLever(Forward)
 advanceOf(sec, 9)
 moveSCSLever(Neutral)
-vehicleSensed(150)
+vehicleSensed(150, 0)
 advanceOf(sec, 6)
-vehicleSensed(100)
+vehicleSensed(100, 0)
 advanceOf(sec, 5)
-vehicleSensed(55)
+vehicleSensed(55, 0)
 advanceOf(sec, 1)
-vehicleSensed(34)
+vehicleSensed(34, 0)
 advanceOf(sec, 3)
 advanceOf(sec, 1)
 advanceOf(sec, 14)
@@ -28,5 +28,4 @@ advanceOf(sec, 5)
 updateBrakePedal(0)
 advanceOf(sec, 1)
 moveSCSLever(Forward)
-noVehicleSensed
 advanceOf(sec, 3)

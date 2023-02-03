@@ -477,8 +477,8 @@ void highBeamOnFixed(int& fixedIlluminationArea, int& highBeamMotor, int voltage
     // }
     // else{
     //     highBeamLights = ;
-    fixedIlluminationArea = 100;
-    highBeamMotor = 1;
+    fixedIlluminationArea = 220;
+    highBeamMotor = 7;
 }
 
 void highBeamAuto(int& highBeamMotor, int& fixedIlluminationArea, float speed, int voltage, float desiredSpeed, bool cruiseOn, int cruiseControlMode){

@@ -1,0 +1,24 @@
+updateBrightness(100)
+advanceOf(sec, 2)
+insertKey
+putIgnitionOn
+updateGasPedal(10)
+advanceOf(sec, 2)
+updateSpeed(20.0)
+switchToAuto
+advanceOf(sec, 2)
+movePitmanArmFB(Forward)
+advanceOf(sec, 2)
+updateGasPedal(0)
+updateSpeed(30.0)
+advanceOf(sec, 2)
+updateSpeed(30.1)
+advanceOf(sec, 2)
+advanceOf(sec, 8)
+vehicleDetected
+advanceOf(millisec, 500)
+advanceOf(millisec, 1500)
+noVehicleDetected
+advanceOf(sec, 2)
+updateSpeed(100.0)
+advanceOf(sec, 6)
